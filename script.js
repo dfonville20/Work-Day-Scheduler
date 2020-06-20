@@ -1,5 +1,5 @@
 // Time and Date
-let now = moment().format("dddd, MMMM Do, YYYY, hh:mm:ss A");
+let now = moment().format("dddd, MMMM Do, YYYY, A");
 $("#CurrentDate").append(now);
 
 // Time Blocks
