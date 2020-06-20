@@ -41,18 +41,18 @@ textarea {
 }
 
 .expired {
-  background-color: #d3d3d3;
-  color: #67697c;
+  background-color: red;
+  color: white;
 }
 
 .current {
-  background-color: #ac4540;
-  color: #67697c;
+  background-color: yellow;
+  color: black;
 }
 
 .future {
-  background-color: #2a802a;
-  color: #67697c;
+  background-color: green;
+  color: white;
 }
 
 .saveBtn {
@@ -66,6 +66,6 @@ textarea {
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 50px;
   transition: all 0.3s ease-in-out;
 }
